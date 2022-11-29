@@ -1,0 +1,127 @@
+/*** RESET *****/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code,del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	/*fontsize: 100%;
+	vertical-align:baseline;*/
+	
+}
+html, body {height:100%;}
+body {line-height: 1;}
+ol, ul {list-style: none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after, q:before, q:after {content: '';content: none;}
+table {border-collapse: collapse; border-spacing: 0;} /* tables still need 'cellspacing="0"' in the markup */
+textarea {overflow:auto;}
+/** RESET ****/
+
+
+.all{
+    width: 1364px;
+    height:623px;
+    border:1px solid #000;
+}
+
+.box1{
+    width: 300px;
+    height: 30px;
+    border: 2px solid #000;
+    background-color: #8b4513;
+    text-align: center;
+    color: #fff;
+    float: left;
+    position: relative;
+    margin: 200px 0 0 600px;
+    z-index: 1;
+    border-radius:0 9px 9px 0;
+}
+
+.box2{
+    width: 300px;
+    height: 15px;
+    background-color: #696969;
+    text-align: center;
+    color: #fff;
+    float: left;
+    position: relative;
+    margin:-23px 0 0 902px;
+    z-index: 2;
+    border-radius:0 9px 9px 0;
+}
+
+.aim{
+    width: 15px;
+    height: 15px;
+    background-color: #f4323a;
+    text-align: center;
+    color: #fff;
+    float: left;
+    position: relative;
+    margin:-29px 0 0 1175px;
+    z-index: 1;
+    transform: rotate(45deg)
+}
+
+.box3{
+    width: 130px;
+    height: 60px;
+    background-color: #000;
+    text-align: center;
+    color: #fff;
+    float: left;
+    position: relative;
+    margin:-47px 0 0 472px;
+    z-index: 0;
+    border-radius:18px 9px 9px 18px;
+    
+}
+
+.reload{
+    width: 80px;
+    height: 30px;
+    background-color: #000;
+    text-align: center;
+    color: #fff;
+    float: left;
+    position: relative;
+    margin:15px 0 0 0px;
+    z-index: 0;
+    transform: rotate(290deg);
+    border-radius: 5px 0 0 5px;
+    
+}
+
+.circle{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    color: #fff;
+    float: left;
+    position: relative;
+    margin: -17px 0 0 -80px;
+    z-index: 0;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+    border-left: 2px solid #000;
+    border-right: 2px solid #000;
+    border-radius: 15px;
+    transform: rotate(330deg)
+}
+
+.trigger{
+     width: 15px;
+    height: 3px;
+    background-color: #000;
+    text-align: center;
+    color: #fff;
+    float: left;
+    position: relative;
+    margin:3px 0 0 -71px;
+    z-index: 0;
+    transform: rotate(290deg);
+    border-radius: 5px 0 0 5px
+    
+}
